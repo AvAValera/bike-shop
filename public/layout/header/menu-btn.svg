@@ -1,0 +1,25 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Interface, Essential/Grid, Layout" rx="-0.500000" width="19.000000" height="19.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="Path" d="M4.16 10.83C3.7 10.83 3.33 10.46 3.33 10C3.33 9.53 3.7 9.16 4.16 9.16C4.62 9.16 5 9.53 5 10C5 10.46 4.62 10.83 4.16 10.83Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M3.33 10C3.33 9.53 3.7 9.16 4.16 9.16C4.62 9.16 5 9.53 5 10C5 10.46 4.62 10.83 4.16 10.83C3.7 10.83 3.33 10.46 3.33 10Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	<path id="Path" d="M10 10.83C9.53 10.83 9.16 10.46 9.16 10C9.16 9.53 9.53 9.16 10 9.16C10.46 9.16 10.83 9.53 10.83 10C10.83 10.46 10.46 10.83 10 10.83Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M9.16 10C9.16 9.53 9.53 9.16 10 9.16C10.46 9.16 10.83 9.53 10.83 10C10.83 10.46 10.46 10.83 10 10.83C9.53 10.83 9.16 10.46 9.16 10Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	<path id="Path" d="M15.83 10.83C15.37 10.83 15 10.46 15 10C15 9.53 15.37 9.16 15.83 9.16C16.29 9.16 16.66 9.53 16.66 10C16.66 10.46 16.29 10.83 15.83 10.83Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M15 10C15 9.53 15.37 9.16 15.83 9.16C16.29 9.16 16.66 9.53 16.66 10C16.66 10.46 16.29 10.83 15.83 10.83C15.37 10.83 15 10.46 15 10Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	<path id="Path" d="M4.16 16.66C3.7 16.66 3.33 16.29 3.33 15.83C3.33 15.37 3.7 15 4.16 15C4.62 15 5 15.37 5 15.83C5 16.29 4.62 16.66 4.16 16.66Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M3.33 15.83C3.33 15.37 3.7 15 4.16 15C4.62 15 5 15.37 5 15.83C5 16.29 4.62 16.66 4.16 16.66C3.7 16.66 3.33 16.29 3.33 15.83Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	<path id="Path" d="M10 16.66C9.53 16.66 9.16 16.29 9.16 15.83C9.16 15.37 9.53 15 10 15C10.46 15 10.83 15.37 10.83 15.83C10.83 16.29 10.46 16.66 10 16.66Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M9.16 15.83C9.16 15.37 9.53 15 10 15C10.46 15 10.83 15.37 10.83 15.83C10.83 16.29 10.46 16.66 10 16.66C9.53 16.66 9.16 16.29 9.16 15.83Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	<path id="Path" d="M15.83 16.66C15.37 16.66 15 16.29 15 15.83C15 15.37 15.37 15 15.83 15C16.29 15 16.66 15.37 16.66 15.83C16.66 16.29 16.29 16.66 15.83 16.66Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M15 15.83C15 15.37 15.37 15 15.83 15C16.29 15 16.66 15.37 16.66 15.83C16.66 16.29 16.29 16.66 15.83 16.66C15.37 16.66 15 16.29 15 15.83Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	<path id="Path" d="M4.16 5C3.7 5 3.33 4.62 3.33 4.16C3.33 3.7 3.7 3.33 4.16 3.33C4.62 3.33 5 3.7 5 4.16C5 4.62 4.62 5 4.16 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M3.33 4.16C3.33 3.7 3.7 3.33 4.16 3.33C4.62 3.33 5 3.7 5 4.16C5 4.62 4.62 5 4.16 5C3.7 5 3.33 4.62 3.33 4.16Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	<path id="Path" d="M10 5C9.53 5 9.16 4.62 9.16 4.16C9.16 3.7 9.53 3.33 10 3.33C10.46 3.33 10.83 3.7 10.83 4.16C10.83 4.62 10.46 5 10 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M9.16 4.16C9.16 3.7 9.53 3.33 10 3.33C10.46 3.33 10.83 3.7 10.83 4.16C10.83 4.62 10.46 5 10 5C9.53 5 9.16 4.62 9.16 4.16Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	<path id="Path" d="M15.83 5C15.37 5 15 4.62 15 4.16C15 3.7 15.37 3.33 15.83 3.33C16.29 3.33 16.66 3.7 16.66 4.16C16.66 4.62 16.29 5 15.83 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M15 4.16C15 3.7 15.37 3.33 15.83 3.33C16.29 3.33 16.66 3.7 16.66 4.16C16.66 4.62 16.29 5 15.83 5C15.37 5 15 4.62 15 4.16Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+</svg>

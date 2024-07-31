@@ -1,0 +1,3 @@
+.hover-header-btn {
+  @apply hover:bg-light-gray@ hover:outline hover:outline-1 hover:outline-gray-100@ hover:rounded-[6px]
+}
