@@ -1,9 +1,9 @@
 import { Flex, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
-import { useAppSelector } from "../../../../../../store/store";
+import { mainMenuStore } from "../../../../../../store/menu/main";
 import { Link } from "react-router-dom";
 
 export default function HeaderMobileSecondBtn() {
-  const { generalMenu } = useAppSelector((state) => state.menu);
+  const { generalMenu } = mainMenuStore(state => state);
   return (
     <Menu>
       <MenuButton flex={"none"} className="w-11 h-11 bg-purple@ rounded-lg">

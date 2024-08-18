@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useAppSelector } from "../../../../../store/store";
+import { mainMenuStore } from "../../../../../store/menu/main";
 import {
   Accordion,
   AccordionItem,
@@ -10,8 +10,7 @@ import {
 } from "@chakra-ui/react";
 
 export default function FooterMobileMenu() {
-  const { footerMenu } = useAppSelector((state) => state.footer);
-  
+  const {footerMenu} = mainMenuStore(state => state);
   return (
     <div className="mb-5">
       <Accordion allowMultiple >

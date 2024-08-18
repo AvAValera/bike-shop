@@ -1,8 +1,8 @@
-import { useAppSelector } from "../../../../store/store";
+import { mainMenuStore } from "../../../../store/menu/main";
 import MainContentItem from "./MainContentItem";
 
 export default function MainContent() {
-  const {generalMenu} = useAppSelector(state => state.menu);
+  const {generalMenu} = mainMenuStore(state => state);
   
   return (
     <>

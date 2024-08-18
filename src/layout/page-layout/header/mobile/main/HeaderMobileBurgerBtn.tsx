@@ -9,13 +9,13 @@ import {
   DrawerBody, DrawerHeader, Divider
 } from "@chakra-ui/react";
 import HeaderUser from "../../components/HeaderUser";
-import { useAppSelector } from "../../../../../../store/store";
+import  {mainMenuStore}  from "../../../../../../store/menu/main";
 import { Link } from "react-router-dom";
 
 export default function HeaderMobileBurgerBtn() {
   const burgerBtnRef = useRef<HTMLButtonElement>(null);
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const {generalMenu} = useAppSelector(state => state.menu);
+  const {generalMenu} = mainMenuStore(state => state);
   
   return (
     <>

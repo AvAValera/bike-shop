@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { useAppSelector } from "../../../../../store/store";
+import { mainMenuStore } from "../../../../../store/menu/main";
 import FooterDesktopService from "./FooterDesktopService";
 
 export default function FooterDesktopMenu() {
-  const {footerMenu} = useAppSelector(state => state.footer);
+  const {footerMenu} = mainMenuStore(state => state);
   
   return (
     <>

@@ -1,21 +1,21 @@
 import { Flex, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
-import { useAppDispatch, useAppSelector } from "../../../../../../store/store";
-import { toggleMailMenu } from "../../../../../../store/ui-slice";
+
 import { Link } from "react-router-dom";
+import { mainMenuStore } from "../../../../../../store/menu/main";
+import { uiStore } from "../../../../../../store/ui/ui";
 
 export default function HeaderSecondMenuBtn() {
-  const dispatch = useAppDispatch();
-  const { generalMenu } = useAppSelector((state) => state.menu);
-  const { showMailMenu } = useAppSelector((state) => state.UI);
+  const {showMailMenu, toggleMainMenu} = uiStore(state => state);
+  const {generalMenu} = mainMenuStore(state => state);
   return (
-    <Menu onClose={() => dispatch(toggleMailMenu(false))}>
+    <Menu onClose={() => toggleMainMenu(false)}>
       <MenuButton
         position={"relative"}
         zIndex={30}
         h={"44px"}
         p={"10px"}
         className="bg-purple@ hover:bg-second-purple@ rounded-lg mr-5 flex-none"
-        onClick={() => dispatch(toggleMailMenu(!showMailMenu))}
+        onClick={() => toggleMainMenu(!showMailMenu)}
       >
         <Flex justifyContent={"center"} alignItems={"center"} gap={"10px"}>
           <img src="/layout/header/menu-btn.svg" alt="menu-btn_icon" />
