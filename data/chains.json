@@ -1,0 +1,9 @@
+[
+  {"codeItem": 51, "img":"/store/chains/1.webp", "name": "Shimano Ultegra CN-6701 Chain", "price": 52, "rating": 5},
+  {"codeItem": 52, "img":"/store/chains/2.webp", "name": "SRAM PC-1130 11-Speed Chain", "price": 25, "rating": 4},
+  {"codeItem": 53, "img":"/store/chains/3.webp", "name": "KMC X11SL DLC Super Light 11-Speed Chain", "price": 80, "rating": 5},
+  {"codeItem": 54, "img":"/store/chains/4.webp", "name": "Shimano Deore CN-HG54 10-Speed Chain", "price": 30, "rating": 4},
+  {"codeItem": 55, "img":"/store/chains/5.webp", "name": "SRAM XX1 Eagle 12-Speed Chain", "price": 85, "rating": 5},
+  {"codeItem": 56, "img":"/store/chains/6.webp", "name": "KMC X9.93 9-Speed Chain", "price": 20, "rating": 3},
+  {"codeItem": 57, "img":"/store/chains/7.webp", "name": "Campagnolo Record 10-Speed Chain", "price": 60, "rating": 5}
+]

@@ -1,0 +1,9 @@
+[
+  {"codeItem": 91, "img":"/store/helmets/1.webp", "name": "Giro Aether MIPS Helmet", "price": 325, "rating": 5},
+  {"codeItem": 92, "img":"/store/helmets/2.webp", "name": "Bell Z20 MIPS Helmet", "price": 230, "rating": 4},
+  {"codeItem": 93, "img":"/store/helmets/3.webp", "name": "Specialized S-Works Evade II", "price": 275, "rating": 5},
+  {"codeItem": 94, "img":"/store/helmets/4.webp", "name": "POC Octal X Spin", "price": 250, "rating": 4},
+  {"codeItem": 95, "img":"/store/helmets/5.webp", "name": "Kask Protone Helmet", "price": 299, "rating": 5},
+  {"codeItem": 96, "img":"/store/helmets/6.webp", "name": "Lazer G1 MIPS Helmet", "price": 219, "rating": 4},
+  {"codeItem": 97, "img":"/store/helmets/7.webp", "name": "Smith Trace MIPS Helmet", "price": 250, "rating": 4}
+]

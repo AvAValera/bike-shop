@@ -7,6 +7,8 @@ import {
   MenuItem,
   Flex,
 } from "@chakra-ui/react";
+import { settings } from "../../../../../store/ui/settings";
+
 
 export default function HeaderPrice() {
   const financeData = [
@@ -15,7 +17,7 @@ export default function HeaderPrice() {
     { id: 3, name: "UAH", img: "/layout/header/hryvna.svg" },
   ];
   const [price, setPrice] = useState<{id: number, name: string, img: string}>(financeData[0]);
-
+  const {setCurrency} = settings(state => state);
   return (
     <Menu>
       <Tooltip label="select currency" openDelay={1000}>
@@ -40,7 +42,10 @@ export default function HeaderPrice() {
       <MenuList p={"15px"}>
         {financeData.map((el) => (
           <MenuItem
-            onClick={() => setPrice(el)}
+            onClick={() => {
+              setPrice(el);
+              setCurrency(el.name as "USD" | "EUR" | "UAH");
+            }}
             _focus={{ bg: "#F4F5F7" }}
             key={el.id}
             bg={"none"}

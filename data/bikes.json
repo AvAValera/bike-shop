@@ -1,0 +1,22 @@
+[
+  {"codeItem": 1, "img":"/store/bikes/1.webp", "name": "S-Works Tarmac SL8 FACT 12r Carbon, Rider First Engineered™", "price": 15500, "rating": 4},
+  {"codeItem": 11, "img":"/store/bikes/2.webp", "name": "Tarmac SL8 Pro - SRAM Force eTap AXS™", "price": 9000, "rating": 5},
+  {"codeItem": 12, "img":"/store/bikes/3.webp", "name": "S-Works Diverge STR - 2023", "price": 7000, "rating": 5},
+  {"codeItem": 13, "img":"/store/bikes/4.webp", "name": "Diverge STR Pro - 2023", "price": 9500, "rating": 4},
+  {"codeItem": 14, "img":"/store/bikes/5.webp", "name": "Roubaix SL8 Pro - 2025", "price": 13000, "rating": 3},
+  {"codeItem": 15, "img":"/store/bikes/6.webp", "name": "Tarmac SL8 Pro - SRAM Force eTap AXS - 2024", "price": 6400, "rating": 4},
+  {"codeItem": 16, "img":"/store/bikes/7.webp", "name": "Aethos Pro Shimano Ultegra Di2 - 2025", "price": 5700, "rating": 4},
+  {"codeItem": 17, "img":"/store/bikes/8.webp", "name": "Warroad Carbon Ultegra Di2 - 2022", "price": 5800, "rating": 4},
+  {"codeItem": 18, "img":"/store/bikes/9.webp", "name": "Propel Advanced Pro 0 AXS - 2023", "price": 11000, "rating": 4},
+  {"codeItem": 19, "img":"/store/bikes/10.webp", "name": "Revolt Advanced Pro 0 - 2024", "price": 9000, "rating": 4},
+  {"codeItem": 120, "img":"/store/bikes/11.webp", "name": "TCR Advanced Pro 0 - Di2 - 2024", "price": 5400, "rating": 4},
+  {"codeItem": 121, "img":"/store/bikes/12.webp", "name": "Avail Advanced Pro 0 - 2024", "price": 4899, "rating": 4},
+  {"codeItem": 122, "img":"/store/bikes/13.webp", "name": "Devote Advanced Pro - 2024", "price": 4599, "rating": 4},
+  {"codeItem": 123, "img":"/store/bikes/14.webp", "name": "Tarmac SL8 Expert - Ultegra Di2 - 2025", "price": 4000, "rating": 4},
+  {"codeItem": 124, "img":"/store/bikes/15.webp", "name": "Warbird 4.5 Force AXS Wide - 2024", "price": 4199, "rating": 4},
+  {"codeItem": 125, "img":"/store/bikes/16.webp", "name": "Roubaix SL8 Pro - 2023", "price": 13600, "rating": 4},
+  {"codeItem": 126, "img":"/store/bikes/17.webp", "name": "Tarmac SL8 Expert - 2024", "price": 8300, "rating": 4},
+  {"codeItem": 127, "img":"/store/bikes/18.webp", "name": "Aethos Pro - Shimano Ultegra Di2 - 2023", "price": 7000, "rating": 4},
+  {"codeItem": 128, "img":"/store/bikes/19.webp", "name": "Crux Pro - 2024", "price": 12100, "rating": 4},
+  {"codeItem": 129, "img":"/store/bikes/20.webp", "name": "Flite 900 - 2024", "price": 6600, "rating": 4}
+]

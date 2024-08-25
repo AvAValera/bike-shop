@@ -1,3 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
-  <image y="15" width="100" height="69" xlink:href="data:img/png;base64,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"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#5946D7;stroke-width:3;}
+	.st1{display:none;}
+	.st2{display:inline;}
+</style>
+<g id="Layer_1_00000091009149645755466100000001410415988522115772_">
+	<g>
+		<path class="st0" d="M72.4,25.3c-0.1,3.6,9.1,3,9.1,3s5.1-0.7,5.3-5.5c0.2-7.3-6.5-8.4-6.5-8.4H61.8c0,0-1.7,0.2-2.2,2.1
+			s0.2,3.4,0.2,3.4l3.8,8.8H39.2l-0.8-1.4h-7.8l3.3,5.8L14.8,66.6H53l15.4-25.8l9.7,25.3l5.6-2L66.8,19.9L80,20v2.5
+			c0,0.2-0.2,0.4-0.4,0.3C78.1,22.7,72.5,22.4,72.4,25.3z M23.7,61.5l12.4-21.4l9.8,21.4H23.7z"/>
+		<polygon class="st0" points="38.4,33.2 50.5,60.7 66.5,33.2 		"/>
+	</g>
+	<path class="st0" d="M24.8,26.7h19.4c0,0,5.6-1.2,1.7-5.1c-1.7-1.7-10-5.1-14.2-5.1s-6.4,2-7.5,4.8s0,5.3,0,5.3h0.6
+		C24.8,26.6,24.8,26.7,24.8,26.7z"/>
+</g>
+<g id="Layer_2_00000057120769929951163290000003386788770271857594_" class="st1">
+	<g class="st2">
+		<circle class="st0" cx="20.4" cy="64.1" r="18.7"/>
+		<circle class="st0" cx="20.4" cy="64.3" r="14.3"/>
+		<line class="st0" x1="34.7" y1="64.3" x2="6.1" y2="64.3"/>
+		<line class="st0" x1="20.4" y1="50" x2="20.4" y2="78.7"/>
+		<line class="st0" x1="7.7" y1="71.2" x2="33" y2="57.5"/>
+		<line class="st0" x1="8" y1="57.3" x2="32.9" y2="71.2"/>
+		<line class="st0" x1="13" y1="76.4" x2="27.9" y2="52.1"/>
+		<line class="st0" x1="27.9" y1="76.4" x2="12.9" y2="52.1"/>
+	</g>
+	<g class="st2">
+		<circle class="st0" cx="80.4" cy="64.1" r="18.7"/>
+		<circle class="st0" cx="80.4" cy="64.3" r="14.3"/>
+		<line class="st0" x1="94.6" y1="64.3" x2="66.1" y2="64.3"/>
+		<line class="st0" x1="80.4" y1="50" x2="80.4" y2="78.7"/>
+		<line class="st0" x1="67.7" y1="71.2" x2="93" y2="57.5"/>
+		<line class="st0" x1="67.9" y1="57.3" x2="92.8" y2="71.2"/>
+		<line class="st0" x1="73" y1="76.4" x2="87.9" y2="52.1"/>
+		<line class="st0" x1="87.8" y1="76.4" x2="72.9" y2="52.1"/>
+	</g>
+</g>
+<g id="Layer_3">
+	<path class="st0" d="M28.4,53.3c2.5,2.1,4.3,5,4.9,8.2 M33.5,66.6c-1.1,6.9-7,12.1-14.2,12.1C11.4,78.7,5,72.3,5,64.3
+		S11.4,50,19.3,50c1.6,0,3.1,0.2,4.5,0.7 M26,46.8c-2.1-0.8-4.3-1.2-6.6-1.2C9.1,45.7,0.7,54,0.7,64.3S9.1,83,19.4,83
+		C29,83,36.8,75.8,38,66.5 M30.7,49.4c3.8,2.9,6.5,7.2,7.2,12.1"/>
+	<line class="st0" x1="19.3" y1="78.7" x2="19.3" y2="66.6"/>
+	<line class="st0" x1="19.3" y1="58.6" x2="19.3" y2="50"/>
+	<line class="st0" x1="29.5" y1="74.5" x2="21.6" y2="66.6"/>
+	<line class="st0" x1="17.3" y1="62.3" x2="9.2" y2="54.2"/>
+	<line class="st0" x1="16.1" y1="64.3" x2="5" y2="64.3"/>
+	<line class="st0" x1="29.5" y1="54.2" x2="25.8" y2="57.9"/>
+	<line class="st0" x1="17.1" y1="66.6" x2="9.2" y2="74.5"/>
+</g>
+<g id="Layer_3_copy">
+	<path class="st0" d="M78.3,50.1c0.3,0,1.6-0.1,2-0.1c7.9,0,14.3,6.4,14.3,14.3s-6.4,14.3-14.3,14.3S66,72.3,66,64.3
+		c0-5.5,3.1-10.2,7.6-12.6 M76.7,45.8c0.9-0.1,2.8-0.2,3.7-0.2c10.3,0,18.7,8.4,18.7,18.7S90.7,83,80.4,83s-18.7-8.4-18.7-18.7
+		c0-7.3,4.2-13.6,10.3-16.7"/>
+	<line class="st0" x1="80.3" y1="78.7" x2="80.3" y2="65.7"/>
+	<line class="st0" x1="80.3" y1="55.3" x2="80.3" y2="50"/>
+	<line class="st0" x1="90.5" y1="74.5" x2="81.3" y2="65.3"/>
+	<line class="st0" x1="75.6" y1="59.6" x2="70.2" y2="54.2"/>
+	<line class="st0" x1="94.7" y1="64.3" x2="82.9" y2="64.3"/>
+	<line class="st0" x1="77.4" y1="64.3" x2="66" y2="64.3"/>
+	<line class="st0" x1="90.5" y1="54.2" x2="82.9" y2="62"/>
+	<line class="st0" x1="78.9" y1="65.7" x2="70.2" y2="74.5"/>
+</g>
 </svg>

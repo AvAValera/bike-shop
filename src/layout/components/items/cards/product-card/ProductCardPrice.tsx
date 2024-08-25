@@ -1,3 +1,7 @@
+import { useState, useEffect } from "react";
+import { settings } from "../../../../../../store/ui/settings";
+
+
 export default function ProductCardPrice({
   price,
   codeItem,
@@ -5,9 +9,21 @@ export default function ProductCardPrice({
   price: number;
   codeItem: number;
 }) {
+  const {currency} = settings(state => state);
+  const [nowCurrency, setNowCurrency] = useState<string>(() => {
+    if(currency === "USD") return "$";
+    else if(currency === "EUR") return "€";
+    else return "₴";
+  });
+  useEffect(() => {
+    if(currency === "USD") setNowCurrency("$");
+  else if(currency === "EUR") setNowCurrency("€");
+  else setNowCurrency("₴");
+  }, [currency])
+
   return (
     <div className="flex items-center justify-between mt-auto">
-      <span className="text-black@ text-3xl font-medium">{price}</span>
+      <span className="text-black@ text-3xl font-medium">{price}{nowCurrency}</span>
       <button className="border-[2px] border-purple@ p-2 rounded-lg hover:bg-purple@ stroke-[#6339d1] hover:stroke-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"
