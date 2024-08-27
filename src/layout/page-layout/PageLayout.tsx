@@ -16,9 +16,11 @@ export default function PageLayout({ title = "Bike Store", children }: Props) {
       <Helmet>
         <title>{title}</title>
       </Helmet>
-      <Header />
-      {children}
-      <Footer />
+      <div className="min-w-[350px]">
+        <Header />
+        {children}
+        <Footer />
+      </div>
     </>
   );
 }
