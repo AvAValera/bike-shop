@@ -29,7 +29,7 @@ export default function ProductCard({
         />
         <ProductCardInfo codeItem={codeItem} rating={rating} />
         <h2 className="text-black@ text-base font-medium mb-4 h-12">
-          {name.substring(0, 60)}
+          {name.substring(0, 55)}
         </h2>
       </Link>
       <ProductCardPrice price={price} codeItem={codeItem} />
