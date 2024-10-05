@@ -1,10 +1,10 @@
 [
-  {"codeItem": 31, "img":"/store/cassettes/1.webp", "name": "RED XPLR XG-1391 Cassette", "price": 456, "rating": 3},
-  {"codeItem": 32, "img":"/store/cassettes/2.webp", "name": "XX SL Eagle T-Type XS-1299 12-Speed Cassette", "price": 415, "rating": 4},
-  {"codeItem": 33, "img":"/store/cassettes/3.webp", "name": "XX Eagle T-Type XS-1297 12-Speed Cassette", "price": 400, "rating": 5},
-  {"codeItem": 34, "img":"/store/cassettes/4.webp", "name": "XG-899 E-Block Cassette", "price": 377, "rating": 5},
-  {"codeItem": 35, "img":"/store/cassettes/5.webp", "name": "XG-1295 X01 Eagle 12-Speed Cassette", "price": 369, "rating": 4},
-  {"codeItem": 36, "img":"/store/cassettes/6.webp", "name": "XTR CS-M9100 12-Speed Cassette", "price": 304, "rating": 5},
-  {"codeItem": 37, "img":"/store/cassettes/7.webp", "name": "XG-795 X01 DH 7-Speed Cassette", "price": 274, "rating": 4},
-  {"codeItem": 38, "img":"/store/cassettes/8.webp", "name": "GX Eagle Transmission Cassette 12-Speed", "price": 195, "rating": 5}
+  {"codeItem": 31, "img":"/store/cassettes/1.webp", "name": "RED XPLR XG-1391 Cassette", "price": 456, "rating": 3, "brand": "RED"},
+  {"codeItem": 32, "img":"/store/cassettes/2.webp", "name": "XX SL Eagle T-Type XS-1299 12-Speed Cassette", "price": 415, "rating": 4, "brand": "XX"},
+  {"codeItem": 33, "img":"/store/cassettes/3.webp", "name": "XX Eagle T-Type XS-1297 12-Speed Cassette", "price": 400, "rating": 5, "brand": "XX"},
+  {"codeItem": 34, "img":"/store/cassettes/4.webp", "name": "XG-899 E-Block Cassette", "price": 377, "rating": 5, "brand": "XG"},
+  {"codeItem": 35, "img":"/store/cassettes/5.webp", "name": "XG-1295 X01 Eagle 12-Speed Cassette", "price": 369, "rating": 4, "brand": "XG"},
+  {"codeItem": 36, "img":"/store/cassettes/6.webp", "name": "XTR CS-M9100 12-Speed Cassette", "price": 304, "rating": 5, "brand": "XTR"},
+  {"codeItem": 37, "img":"/store/cassettes/7.webp", "name": "XG-795 X01 DH 7-Speed Cassette", "price": 274, "rating": 4, "brand": "XG"},
+  {"codeItem": 38, "img":"/store/cassettes/8.webp", "name": "GX Eagle Transmission Cassette 12-Speed", "price": 195, "rating": 5, "brand": "GX"}
 ]

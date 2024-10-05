@@ -1,8 +1,8 @@
 [
-  {"codeItem": 61, "img":"/store/ebikes/1.webp", "name": "Specialized Turbo Vado 4.0", "price": 3750, "rating": 5},
-  {"codeItem": 62, "img":"/store/ebikes/2.webp", "name": "Trek Allant+ 7", "price": 3500, "rating": 4},
-  {"codeItem": 63, "img":"/store/ebikes/3.webp", "name": "Cannondale Synapse Neo SE", "price": 4400, "rating": 5},
-  {"codeItem": 64, "img":"/store/ebikes/4.webp", "name": "Rad Power Bikes RadCity 5 Plus", "price": 1999, "rating": 4},
-  {"codeItem": 65, "img":"/store/ebikes/5.webp", "name": "Giant Explore E+ 2 GTS", "price": 3200, "rating": 4},
-  {"codeItem": 66, "img":"/store/ebikes/6.webp", "name": "Riese & Müller Superdelite", "price": 7000, "rating": 5}
+  {"codeItem": 61, "img":"/store/ebikes/1.webp", "name": "Specialized Turbo Vado 4.0", "price": 3750, "rating": 5, "brand": "Specialized"},
+  {"codeItem": 62, "img":"/store/ebikes/2.webp", "name": "Trek Allant+ 7", "price": 3500, "rating": 4, "brand": "Trek"},
+  {"codeItem": 63, "img":"/store/ebikes/3.webp", "name": "Cannondale Synapse Neo SE", "price": 4400, "rating": 5, "brand": "Cannondale"},
+  {"codeItem": 64, "img":"/store/ebikes/4.webp", "name": "Rad Power Bikes RadCity 5 Plus", "price": 1999, "rating": 4, "brand": "Rad Power Bikes"},
+  {"codeItem": 65, "img":"/store/ebikes/5.webp", "name": "Giant Explore E+ 2 GTS", "price": 3200, "rating": 4, "brand": "Giant"},
+  {"codeItem": 66, "img":"/store/ebikes/6.webp", "name": "Riese & Müller Superdelite", "price": 7000, "rating": 5, "brand": "Riese & Müller"}
 ]

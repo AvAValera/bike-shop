@@ -10,8 +10,8 @@ export default function FilterPrice() {
   return (
     <div>
       <div className='flex mb-3'>
-        <input className='w-1/2 border-gray-200@ rounded-l focus:border-purple@' value={"Min: " + val[0]} type="text" disabled />
-        <input className='w-1/2 border-l-0 border-gray-200@ rounded-r focus:border-purple@' value={"Max: " + val[1]} type="text" disabled />
+        <input className='w-1/2 border-gray-200@ rounded-l focus:border-purple@ text-gray-500@' value={"Min: " + val[0]} type="text" disabled />
+        <input className='w-1/2 border-l-0 border-gray-200@ rounded-r focus:border-purple@ text-gray-500@' value={"Max: " + val[1]} type="text" disabled />
       </div>
       <Slider
         styles={{

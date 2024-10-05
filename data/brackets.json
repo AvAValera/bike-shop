@@ -1,10 +1,10 @@
 [
-  {"codeItem": 21, "img":"/store/brackets/1.webp", "name": "BB30 Bottom Bracket for SRAM DUB Road", "price": 359, "rating": 3},
-  {"codeItem": 22, "img":"/store/brackets/2.webp", "name": "BB30 Bottom Bracket for Shimano", "price": 459, "rating": 4},
-  {"codeItem": 23, "img":"/store/brackets/3.webp", "name": "BSA Bottom Bracket for SRAM DUB", "price": 329, "rating": 5},
-  {"codeItem": 24, "img":"/store/brackets/4.webp", "name": "EVO386 Bottom Bracket for Shimano", "price": 250, "rating": 5},
-  {"codeItem": 25, "img":"/store/brackets/5.webp", "name": "ITA Bottom Bracket for SRAM DUB", "price": 263, "rating": 4},
-  {"codeItem": 26, "img":"/store/brackets/6.webp", "name": "PF30 Bottom Bracket for Shimano", "price": 321, "rating": 5},
-  {"codeItem": 27, "img":"/store/brackets/7.webp", "name": "BB30 Bottom Bracket Road and MTB", "price": 345, "rating": 4},
-  {"codeItem": 28, "img":"/store/brackets/8.webp", "name": "PF30A Bottom Bracket for SRAM DUB Road", "price": 368, "rating": 5}
+  {"codeItem": 21, "img":"/store/brackets/1.webp", "name": "BB30 Bottom Bracket for SRAM DUB Road", "price": 359, "rating": 3, "brand": "BB30"},
+  {"codeItem": 22, "img":"/store/brackets/2.webp", "name": "BB30 Bottom Bracket for Shimano", "price": 459, "rating": 4, "brand": "BB30"},
+  {"codeItem": 23, "img":"/store/brackets/3.webp", "name": "BSA Bottom Bracket for SRAM DUB", "price": 329, "rating": 5, "brand": "BSA"},
+  {"codeItem": 24, "img":"/store/brackets/4.webp", "name": "EVO386 Bottom Bracket for Shimano", "price": 250, "rating": 5, "brand": "EVO386"},
+  {"codeItem": 25, "img":"/store/brackets/5.webp", "name": "ITA Bottom Bracket for SRAM DUB", "price": 263, "rating": 4, "brand": "ITA"},
+  {"codeItem": 26, "img":"/store/brackets/6.webp", "name": "PF30 Bottom Bracket for Shimano", "price": 321, "rating": 5, "brand": "PF30"},
+  {"codeItem": 27, "img":"/store/brackets/7.webp", "name": "BB30 Bottom Bracket Road and MTB", "price": 345, "rating": 4, "brand": "BB30"},
+  {"codeItem": 28, "img":"/store/brackets/8.webp", "name": "PF30A Bottom Bracket for SRAM DUB Road", "price": 368, "rating": 5, "brand": "PF30A"}
 ]

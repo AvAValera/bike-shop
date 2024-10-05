@@ -1,10 +1,10 @@
 [
-  {"codeItem": 41, "img":"/store/chainrings/1.webp", "name": "RED X-Range 12-speed Chainring", "price": 129, "rating": 3},
-  {"codeItem": 42, "img":"/store/chainrings/2.webp", "name": "XTR M9020 Outer Chainring", "price": 139, "rating": 4},
-  {"codeItem": 43, "img":"/store/chainrings/3.webp", "name": "XTR M9000 Outer Chainring", "price": 128, "rating": 5},
-  {"codeItem": 44, "img":"/store/chainrings/4.webp", "name": "RED22 X-Glide 11-Speed Chainring -110 BCD", "price": 145, "rating": 5},
-  {"codeItem": 45, "img":"/store/chainrings/5.webp", "name": "Force Road Chainring", "price": 238, "rating": 4},
-  {"codeItem": 46, "img":"/store/chainrings/6.webp", "name": "XTR M9000 Chainring", "price": 242, "rating": 5},
-  {"codeItem": 47, "img":"/store/chainrings/7.webp", "name": "Premium Oval 110 BCD Outer Chainring for FSA ABS", "price": 225, "rating": 4},
-  {"codeItem": 48, "img":"/store/chainrings/8.webp", "name": "X-Sync 2 SL Eagle Direct Mount Chainring", "price": 159, "rating": 5}
+  {"codeItem": 41, "img":"/store/chainrings/1.webp", "name": "RED X-Range 12-speed Chainring", "price": 129, "rating": 3, "brand": "RED"},
+  {"codeItem": 42, "img":"/store/chainrings/2.webp", "name": "XTR M9020 Outer Chainring", "price": 139, "rating": 4, "brand": "XTR"},
+  {"codeItem": 43, "img":"/store/chainrings/3.webp", "name": "XTR M9000 Outer Chainring", "price": 128, "rating": 5, "brand": "XTR"},
+  {"codeItem": 44, "img":"/store/chainrings/4.webp", "name": "RED22 X-Glide 11-Speed Chainring -110 BCD", "price": 145, "rating": 5, "brand": "RED22"},
+  {"codeItem": 45, "img":"/store/chainrings/5.webp", "name": "Force Road Chainring", "price": 238, "rating": 4, "brand": "Force"},
+  {"codeItem": 46, "img":"/store/chainrings/6.webp", "name": "XTR M9000 Chainring", "price": 242, "rating": 5, "brand": "XTR"},
+  {"codeItem": 47, "img":"/store/chainrings/7.webp", "name": "Premium Oval 110 BCD Outer Chainring for FSA ABS", "price": 225, "rating": 4, "brand": "Premium"},
+  {"codeItem": 48, "img":"/store/chainrings/8.webp", "name": "X-Sync 2 SL Eagle Direct Mount Chainring", "price": 159, "rating": 5, "brand": "X-Sync"}
 ]

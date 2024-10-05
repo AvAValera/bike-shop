@@ -1,7 +1,7 @@
 [
-  {"codeItem": 111, "img":"/store/stems/1.webp", "name": "Race Face Atlas 35 Stem", "price": 99, "rating": 5},
-  {"codeItem": 112, "img":"/store/stems/2.webp", "name": "Thomson Elite X4 Stem", "price": 120, "rating": 5},
-  {"codeItem": 113, "img":"/store/stems/3.webp", "name": "Zipp Service Course SL Stem", "price": 110, "rating": 4},
-  {"codeItem": 114, "img":"/store/stems/4.webp", "name": "Easton EA90 Stem", "price": 90, "rating": 4},
-  {"codeItem": 115, "img":"/store/stems/5.webp", "name": "Enve Carbon Road Stem", "price": 300, "rating": 5}
+  {"codeItem": 111, "img":"/store/stems/1.webp", "name": "Race Face Atlas 35 Stem", "price": 99, "rating": 5, "brand": "Race"},
+  {"codeItem": 112, "img":"/store/stems/2.webp", "name": "Thomson Elite X4 Stem", "price": 120, "rating": 5, "brand": "Thomson"},
+  {"codeItem": 113, "img":"/store/stems/3.webp", "name": "Zipp Service Course SL Stem", "price": 110, "rating": 4, "brand": "Zipp"},
+  {"codeItem": 114, "img":"/store/stems/4.webp", "name": "Easton EA90 Stem", "price": 90, "rating": 4, "brand": "Easton"},
+  {"codeItem": 115, "img":"/store/stems/5.webp", "name": "Enve Carbon Road Stem", "price": 300, "rating": 5, "brand": "Enve"}
 ]

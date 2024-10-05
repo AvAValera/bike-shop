@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import bikes from "../../../data/bikes.json";
 import brackets from "../../../data/brackets.json";
@@ -18,9 +18,11 @@ import CategoryFilter from "./category-filter/CategoryFilter";
 import { useMediaQuery } from "react-responsive";
 import CategoryFilterMobileBtn from "./category-filter/CategoryFilterMobileBtn";
 import * as _ from "lodash";
+import MobileFilter from "./category-filter/MobileFilter";
 
 export default function CategoryPage() {
   const desktop = useMediaQuery({minWidth: 1024});
+  const [isOpenFilters, setIsOpenFilters] = useState<boolean>(false);
   const navigate = useNavigate();
   const { cat } = useParams();
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -54,7 +56,8 @@ export default function CategoryPage() {
       <div className="pt-[30px] pb-[75px] lg:px-5 px-5 xl:px-[90px]">
         <h1 className="text-black@ font-medium text-2xl mb-[30px]">{_.capitalize(cat)}</h1>
         <div className="flex flex-col lg:flex-row gap-5">
-          {desktop ? <CategoryFilter /> : <CategoryFilterMobileBtn />}
+          {desktop ? <CategoryFilter /> : <CategoryFilterMobileBtn isOpenFilters={isOpenFilters} setIsOpenFilters={setIsOpenFilters} />}
+          <MobileFilter isOpen={isOpenFilters} setIsOpenFilters={setIsOpenFilters} />
           <CategoryList data={categoryData} />
         </div>
       </div>
