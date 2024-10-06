@@ -53,7 +53,7 @@ export default function CategoryPage() {
   const categoryData = categoryDataMap[cat!];
   return (
     <PageLayout title={cat?.toLocaleUpperCase()}>
-      <div className="pt-[30px] pb-[75px] lg:px-5 px-5 xl:px-[90px]">
+      <div className="pt-[30px] pb-[75px] lg:px-5 px-5 xl:px-[90px] min-[1440px]:px-0 max-w-[1440px] mx-auto">
         <h1 className="text-black@ font-medium text-2xl mb-[30px]">{_.capitalize(cat)}</h1>
         <div className="flex flex-col lg:flex-row gap-5">
           {desktop ? <CategoryFilter /> : <CategoryFilterMobileBtn isOpenFilters={isOpenFilters} setIsOpenFilters={setIsOpenFilters} />}

@@ -7,7 +7,7 @@ import steams from "../../../../data/steams.json";
 export default function Favorites() {
   return (
     <div className="bg-white w-full ">
-      <div className="mx-[15px] md:mx-5 lg:mx-[90px] py-[60px]">
+      <div className=" md:mx-5 lg:mx-[90px] p-3 py-[60px] max-w-[1440px] min-[1440px]:mx-auto ">
         <FavoritesCards header="Bikes" cardsArr={bikes.slice(0, 6)} link={{name: "All bikes", url: "#"}} />
         <FavoritesCards
           header="Favorites"

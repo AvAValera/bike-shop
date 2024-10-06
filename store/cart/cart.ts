@@ -4,7 +4,7 @@ import { create } from "zustand";
 interface Init {
   cartQuantity: number,
   cartSum: number,
-  cartItems: {id: string, name: string}[]
+  cartItems: {id: string, name: string, quantity: number}[]
 }
 
 
