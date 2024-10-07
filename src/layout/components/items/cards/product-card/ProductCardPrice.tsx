@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { settings } from "../../../../../../store/ui/settings";
-import { position, useToast } from "@chakra-ui/react";
+import { useToast } from "@chakra-ui/react";
+import { cartStore } from "../../../../../../store/cart/cart";
 
 export default function ProductCardPrice({
   price,
@@ -9,6 +10,7 @@ export default function ProductCardPrice({
   price: number;
   codeItem: number;
 }) {
+  const {addCart} = cartStore(state => state);
   const toast = useToast();
   const {currency} = settings(state => state);
   const [nowCurrency, setNowCurrency] = useState<string>(() => {
@@ -26,7 +28,10 @@ export default function ProductCardPrice({
     <div className="flex items-center justify-between mt-auto">
       <span className="text-black@ text-3xl font-medium">{price}{nowCurrency}</span>
       <button 
-      onClick={() => toast({status: "success", title: "Add to Cart", isClosable: true, duration: 1000, position: "bottom-right"})}
+      onClick={() => {
+        toast({status: "success", title: "Add to Cart", isClosable: true, duration: 1000, position: "bottom-right"});
+        addCart({codeItem, quantity: 1});
+      }}
       className="border-[2px] border-purple@ p-2 rounded-lg hover:bg-purple@ stroke-[#6339d1] hover:stroke-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"
