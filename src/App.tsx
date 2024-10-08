@@ -5,6 +5,7 @@ import LoginRegisterPage from "./pages/login-register-page/LoginRegisterPage";
 import ProductItemPage from "./pages/product-item/ProductItemPage";
 import NotFound from "./pages/not-found/NotFound";
 import CategoryPage from "./pages/category/CategoryPage";
+import CartPage from "./pages/cart/CartPage";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/user/auth" index element={<LoginRegisterPage />} />
           <Route path="/category/:cat" element={<CategoryPage />} />
           <Route path="/item/:id" element={<ProductItemPage />} />
+          <Route path="/cart" element={<CartPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </RootLayout>

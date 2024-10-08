@@ -51,6 +51,7 @@ export default function CategoryList({ data }: Props) {
               name={el.name}
               price={el.price}
               rating={el.rating}
+              brand={el.brand}
               responsive
             />
           ))}

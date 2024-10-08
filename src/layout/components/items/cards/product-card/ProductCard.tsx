@@ -8,6 +8,7 @@ interface PropsCard {
   rating: number;
   name: string;
   price: number;
+  brand: string;
   responsive?: boolean
 }
 
@@ -17,6 +18,7 @@ export default function ProductCard({
   name,
   price,
   rating,
+  brand,
   responsive = false
 }: PropsCard) {
   return (
@@ -32,7 +34,7 @@ export default function ProductCard({
           {name.substring(0, 55)}
         </h2>
       </Link>
-      <ProductCardPrice price={price} codeItem={codeItem} />
+      <ProductCardPrice price={price} codeItem={codeItem} img={img} name={name} brand={brand} />
     </div>
   );
 }

@@ -5,7 +5,7 @@ export default function HeaderSecondCart() {
   const {cartQuantity} = cartStore(state => state);
   return (
     <Link
-      to={"#"}
+      to={"/cart"}
       className="relative flex items-center gap-[10px] px-3 py-1 text-base text-black@ hover-header-btn ml-auto flex-none"
     >
       <img src="/layout/header/cart.svg" alt="cart_icon" />

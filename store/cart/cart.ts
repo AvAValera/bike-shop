@@ -3,7 +3,11 @@ import { devtools } from "zustand/middleware";
 
 interface CartItem {
   codeItem: number;
+  name: string;
   quantity: number;
+  img: string;
+  price: number;
+  brand: string;
 }
 
 interface Init {
@@ -27,14 +31,22 @@ export const cartStore = create<Init>()(
         const itemExists = state.cartItems.find(el => el.codeItem === item.codeItem);
         if (itemExists) {
          resultArr = state.cartItems.map(el =>
-            el.codeItem === item.codeItem ? { ...el, quantity: el.quantity + 1 } : el
+            el.codeItem === item.codeItem ? { ...el, quantity: el.quantity + item.quantity } : el
           );
         } else {
           resultArr = [...state.cartItems, item];
           isNewItem = true;
         }
+        const newCartSum = resultArr.reduce(
+          (sum, el) => sum + el.price * el.quantity,
+          0
+        );
 
-        return { cartItems: resultArr, cartQuantity: state.cartQuantity + (isNewItem ? 1 : 0)};
+        return { 
+          cartItems: resultArr, 
+          cartQuantity: state.cartQuantity + (isNewItem ? 1 : 0),
+          cartSum: newCartSum
+        };
       }),
     deleteCart: (arr) => set(() => ({ cartItems: arr })),
   }))

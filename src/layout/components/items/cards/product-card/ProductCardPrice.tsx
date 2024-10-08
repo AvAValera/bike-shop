@@ -6,9 +6,15 @@ import { cartStore } from "../../../../../../store/cart/cart";
 export default function ProductCardPrice({
   price,
   codeItem,
+  img,
+  name,
+  brand
 }: {
   price: number;
   codeItem: number;
+  img: string;
+  name: string;
+  brand: string
 }) {
   const {addCart} = cartStore(state => state);
   const toast = useToast();
@@ -30,7 +36,7 @@ export default function ProductCardPrice({
       <button 
       onClick={() => {
         toast({status: "success", title: "Add to Cart", isClosable: true, duration: 1000, position: "bottom-right"});
-        addCart({codeItem, quantity: 1});
+        addCart({codeItem, quantity: 1, price, img, name, brand});
       }}
       className="border-[2px] border-purple@ p-2 rounded-lg hover:bg-purple@ stroke-[#6339d1] hover:stroke-white">
         <svg

@@ -3,6 +3,8 @@ import Counter from "../../../layout/components/items/counter/Counter";
 import Rating from "../../../utils/Rating";
 import ProductInfoColor from "./ProductInfoColor";
 import ProductInfoSize from "./ProductInfoSize";
+import { cartStore } from "../../../../store/cart/cart";
+import { useToast } from "@chakra-ui/react";
 
 interface Props {
   codeItem: number;
@@ -19,7 +21,10 @@ export default function ProductInfo({
   name,
   price,
   rating,
+  img
 }: Props) {
+  const toast = useToast();
+  const {addCart} = cartStore(state => state);
   const [counter, setCounter] = useState<number>(1);
   const [totalPrice, setTotalPrice] = useState<number>(price);
 
@@ -41,7 +46,10 @@ export default function ProductInfo({
         <h3 className="text-black@ text-4xl font-bold my-10">{totalPrice}$</h3>
         <div className="flex gap-2 items-center">
           <Counter counter={counter} setCounter={setCounter} />
-          <button className="w-full h-[54px] bg-purple@ rounded-md text-white@ text-lg font-medium hover:bg-second-purple@">Add to Card</button>
+          <button onClick={() => {
+            addCart({codeItem, quantity: counter, img, price, name, brand});
+            toast({status: "success", title: "Add to Cart", isClosable: true, duration: 1000, position: "bottom-right"});
+          }} className="w-full h-[54px] bg-purple@ rounded-md text-white@ text-lg font-medium hover:bg-second-purple@">Add to Card</button>
         </div>
       </div>
     </div>
