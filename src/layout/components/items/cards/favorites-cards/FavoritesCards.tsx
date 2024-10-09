@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 interface Props {
   header: string,
-  cardsArr: {codeItem: number, img: string, name: string, price: number, rating: number}[],
+  cardsArr: {codeItem: number, img: string, name: string, price: number, rating: number, brand: string}[],
   link?: {name: string, url: string} | null
 }
 
@@ -39,6 +39,7 @@ export default function FavoritesCards({cardsArr, header, link = null}: Props) {
               name={el.name}
               price={el.price}
               rating={el.rating}
+              brand={el.brand}
             />
           </div>)
         }
