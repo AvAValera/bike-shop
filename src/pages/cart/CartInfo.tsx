@@ -1,6 +1,7 @@
-
+import { cartStore } from "../../../store/cart/cart";
 
 export default function CartInfo() {
+  const {cartSum, cartQuantity} = cartStore((state) => state);
   return (
     <div className="w-[300px] flex-none bg-white@ rounded-md border border-gray-200@">
       <div className="px-[30px] py-5 border-b border-gray-200@">
@@ -9,7 +10,7 @@ export default function CartInfo() {
       <div className="px-[30px] py-5 border-b border-gray-200@">
         <div className="flex item-center justify-between text-black@ text-xl font-medium mb-[10px]">
           <span>Quantity</span>
-          <span>3</span>
+          <span>{cartQuantity}</span>
         </div>
         <div className="relative">
           <input className="w-full h-12 border rounded-md border-gray-200@ pr-12" type="text" placeholder="Promo code" />
@@ -21,7 +22,7 @@ export default function CartInfo() {
       <div className="px-[30px] py-5 mb-10">
         <div className="flex item-center justify-between text-black@ text-xl font-medium mb-[15px]">
           <span>Total</span>
-          <span>1999 $</span>
+          <span>{cartSum} $</span>
         </div>
         <div>
           <button className="w-full h-[54px] bg-purple@ text-white@ text-lg font-medium rounded-md hover:bg-second-purple@">Order placement</button>

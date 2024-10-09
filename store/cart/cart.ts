@@ -15,7 +15,9 @@ interface Init {
   cartSum: number;
   cartItems: CartItem[] | [];
   addCart: (item: CartItem) => void;
-  deleteCart: (arr: CartItem[] | []) => void;
+  setQuantity: (codeItem: number, quantity: number) => void;
+  deleteCart: (codeItem: number) => void;
+  deleteAllCart: () => void;
 }
 
 export const cartStore = create<Init>()(
@@ -23,15 +25,30 @@ export const cartStore = create<Init>()(
     cartQuantity: 0,
     cartItems: [],
     cartSum: 0,
+    setQuantity: (codeItem, quantity) =>
+      set((state) => {
+        const newArrQuantity = state.cartItems.map((el) =>
+          el.codeItem === codeItem ? { ...el, quantity } : el
+        );
+        const newCartSum = newArrQuantity.reduce(
+          (sum, el) => sum + el.price * el.quantity,
+          0
+        );
+        return { cartItems: newArrQuantity, cartSum: newCartSum };
+      }),
     addCart: (item) =>
       set((state) => {
         let resultArr;
         let isNewItem = false;
 
-        const itemExists = state.cartItems.find(el => el.codeItem === item.codeItem);
+        const itemExists = state.cartItems.find(
+          (el) => el.codeItem === item.codeItem
+        );
         if (itemExists) {
-         resultArr = state.cartItems.map(el =>
-            el.codeItem === item.codeItem ? { ...el, quantity: el.quantity + item.quantity } : el
+          resultArr = state.cartItems.map((el) =>
+            el.codeItem === item.codeItem
+              ? { ...el, quantity: el.quantity + item.quantity }
+              : el
           );
         } else {
           resultArr = [...state.cartItems, item];
@@ -42,12 +59,30 @@ export const cartStore = create<Init>()(
           0
         );
 
-        return { 
-          cartItems: resultArr, 
+        return {
+          cartItems: resultArr,
           cartQuantity: state.cartQuantity + (isNewItem ? 1 : 0),
-          cartSum: newCartSum
+          cartSum: newCartSum,
         };
       }),
-    deleteCart: (arr) => set(() => ({ cartItems: arr })),
+    deleteCart: (codeItem) =>
+      set((state) => {
+        const resultArr = state.cartItems.filter(
+          (el) => el.codeItem !== codeItem
+        );
+
+        const newCartSum = resultArr.reduce(
+          (sum, el) => sum + el.price * el.quantity,
+          0
+        );
+
+        return {
+          cartItems: resultArr,
+          cartSum: newCartSum,
+          cartQuantity: resultArr.length,
+        };
+      }),
+    deleteAllCart: () =>
+      set(() => ({ cartItems: [], cartQuantity: 0, cartSum: 0 })),
   }))
 );

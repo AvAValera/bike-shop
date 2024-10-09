@@ -1,7 +1,11 @@
+import { cartStore } from "../../../../store/cart/cart";
+
 export default function CardListHeader() {
+  const deleteAll = cartStore((state) => state.deleteAllCart);
+
   return (
     <div className="w-full h-[50px] px-5 py-[15px]">
-      <button className="flex item-center gap-[10px] ml-auto hover:font-medium stroke-[2px] hover:stroke-[2.5px]">
+      <button onClick={() => deleteAll()} className="flex item-center gap-[10px] ml-auto hover:font-medium stroke-[2px] hover:stroke-[2.5px]">
         <span className="text-red@">Delete all</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
