@@ -3,7 +3,7 @@ import { cartStore } from "../../../store/cart/cart";
 export default function CartInfo() {
   const {cartSum, cartQuantity} = cartStore((state) => state);
   return (
-    <div className="w-[300px] flex-none bg-white@ rounded-md border border-gray-200@">
+    <div className="w-full lg:w-[300px] flex-none bg-white@ rounded-md border border-gray-200@">
       <div className="px-[30px] py-5 border-b border-gray-200@">
         <h3 className="text-black@ text-2xl font-medium">Your order</h3>
       </div>

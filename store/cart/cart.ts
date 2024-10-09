@@ -1,5 +1,4 @@
 import { create } from "zustand";
-import { devtools } from "zustand/middleware";
 
 interface CartItem {
   codeItem: number;
@@ -21,7 +20,7 @@ interface Init {
 }
 
 export const cartStore = create<Init>()(
-  devtools((set) => ({
+  (set) => ({
     cartQuantity: 0,
     cartItems: [],
     cartSum: 0,
@@ -84,5 +83,5 @@ export const cartStore = create<Init>()(
       }),
     deleteAllCart: () =>
       set(() => ({ cartItems: [], cartQuantity: 0, cartSum: 0 })),
-  }))
+  })
 );

@@ -22,11 +22,11 @@ export default function CardListCounter({quantity, price, codeItem}: CartItem) {
       setQuantity(codeItem, counter);
       setTotal(counter * price);
     
-  }, [counter, quantity]);
+  }, [counter]);
 
 
   return (
-    <div className="w-[300px] flex justify-between items-center">
+    <div className="w-full h-full md:w-[300px] flex-none flex justify-between items-center">
       <Counter counter={counter} setCounter={setCounter} />
       <span className="w-1/3 text-center text-black@ text-base font-bold">{total} $</span>
       <button onClick={() => deleteCart(codeItem)} className="py-2 pl-2 ml-auto stroke-[2px] stroke-gray-400@ hover:stroke-[2.5px]">
