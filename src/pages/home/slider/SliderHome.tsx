@@ -22,9 +22,9 @@ export default function SliderHome() {
     <div className="max-w-[1440px] mx-auto">
       <div className=" h-[230px] md:h-[420px] mt-[30px] mx-8  mb-5 md:mb-10">
       <Slider {...settings} >
-        <div className=" h-[230px] md:h-[420px] bg-[url('/home/slider/1.jpg')] bg-cover bg-center bg-no-repeat rounded-[30px]" />
-        <div className=" h-[230px] md:h-[420px] bg-[url('/home/slider/2.jpg')] bg-cover bg-center bg-no-repeat rounded-[30px]" />
-        <div className=" h-[230px] md:h-[420px] bg-[url('/home/slider/3.jpg')] bg-cover bg-center bg-no-repeat rounded-[30px]" />
+        <div className=" h-[230px] md:h-[420px] bg-[url('/home/slider/1.webp')] bg-cover bg-center bg-no-repeat rounded-[30px]" />
+        <div className=" h-[230px] md:h-[420px] bg-[url('/home/slider/2.webp')] bg-cover bg-center bg-no-repeat rounded-[30px]" />
+        <div className=" h-[230px] md:h-[420px] bg-[url('/home/slider/3.webp')] bg-cover bg-center bg-no-repeat rounded-[30px]" />
       </Slider>
     </div>
     </div>
